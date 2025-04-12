@@ -1,0 +1,48 @@
+/* 기본 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 바디 전체 설정 */
+body {
+  font-family: 'Comic Sans MS', 'Apple SD Gothic Neo', sans-serif;
+  background: linear-gradient(145deg, #f9f5ee, #dce3d5);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  color: #4a4a4a;
+}
+
+/* 메인 컨테이너 */
+.container {
+  background: #fffaf0;
+  padding: 40px 30px;
+  border-radius: 30px;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  border: 4px dashed #a3c9a8;
+}
+
+/* 제목 */
+h1 {
+  font-size: 2.2rem;
+  color: #7b9e89;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px #fff;
+}
+
+/* 라벨 */
+label {
+  font-size: 1rem;
+  color: #5d6b64;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* 파일 선택 input */
